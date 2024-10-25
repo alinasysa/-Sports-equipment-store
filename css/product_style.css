@@ -1,0 +1,91 @@
+.header{
+    background-color: rgba(35, 41, 60, 1);
+    padding-bottom: 30px;
+}
+.container_product{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    border-top: 1px solid rgb(138, 141, 148);
+}
+.details{
+    max-width: 350px;
+    margin-left: 100px;
+}
+.details h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.details p{
+    font-size: 11px;
+    color: gray;
+    letter-spacing: 0.86px
+}
+.star_review{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.star_review span{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: url(..//image/svg/star_icon_review.svg) no-repeat;
+}
+.details a{
+    color: gray ;
+    font-size: 11px;
+    letter-spacing: 0.86px;
+}
+.details a:hover{
+    color: rgb(70, 47, 47);
+}
+.price{
+    margin-top: 30px;
+}
+.price span{
+    position: relative;
+    font-size: 32px;
+    color: rgba(231, 3, 3, 0.897);
+    font-weight: bold;
+}
+.price span::before{
+    content: "-31%";
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 60px;
+    height: 25px;
+    border-radius: 2px;
+    background-color: rgba(231, 3, 3, 0.897);
+    top: -25px;
+    right: -60px;
+}
+.price p{
+    font-size: 11px;
+    color: gray;
+    letter-spacing: 0.86px;
+    margin-bottom: 30px;
+}
+.btn_buy{
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.btn_buy:hover{
+    background-color: rgb(219, 4, 4);
+}
+.desk{
+    max-width: 650px;
+    margin-bottom:100px
+}
+.desk h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,136 @@
+body, html{
+    background-color: rgb(34, 33, 33);
+    height: 100%;
+}
+.admin_head{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgb(83, 82, 82);
+    margin-bottom: 20px;
+}
+.user_name{
+    position: relative;
+    
+}
+.user_name a{
+    color: white;
+}
+.user_name::before{
+    content: url(../image/svg/avatar.svg);
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: -20px;
+    left: -80px;
+}
+.wrap_admin{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 1 1 auto;
+}
+.admin_section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.navigation{
+    background-color: rgb(83, 82, 82);
+    margin-right: 20px;
+    padding-right: 30px;
+    border-radius: 4px;
+}
+.navigation li{
+    padding: 20px 30px;
+    border-left: 5px solid transparent;
+}
+.navigation li:hover{
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(26, 25, 25);
+    border-left: 5px solid blue;
+}
+.navigation a{
+    color: white;
+    position: relative;
+    padding: 15px 50px;
+}
+.user::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:7px;
+    left:0;
+    background-image: url(../image/svg/user_icon.svg);
+}
+.order::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:7px;
+    left:0;
+    background-image: url(../image/svg/order_icon.svg);
+}
+.products_icon::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:7px;
+    left:0;
+    background-image: url(../image/svg/product_icon.svg);
+}
+.analytics::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top:7px;
+    left:0;
+    background-image: url(../image/svg/analytic.svg);
+}
+.table_wrap{
+   background-color:  rgb(83, 82, 82);
+   border-radius: 4px;
+}
+table{
+    background-color: rgb(83, 82, 82);
+    letter-spacing: 1px;
+    color: rgb(231, 224, 224);
+    margin:20px;
+}
+td,th{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.664);
+    padding: 10px 30px;
+   
+}
+
+table button{
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 20px;
+}
+.edit_btn{
+    background-color: rgb(34, 241, 34);
+    margin-right: 10px;
+}
+.edit_btn:hover{
+    background-color: rgb(41, 197, 41);
+}
+.delete_btn{
+    background-color: rgb(248, 61, 61);
+}
+.delete_btn:hover{
+    background-color: rgb(211, 38, 38);
+}
+.footer_admin p{
+color: rgba(209, 245, 209, 0.445);
+text-align: center;
+}
+
+
